@@ -62,7 +62,7 @@ export function FreePress() {
                 {/* Post Image */}
                 <div className="relative aspect-square">
                   <Image
-                    src={img?.imageUrl || ""}
+                    src={post.id === 1 ? "/imagen5.jpeg" : "/imagen6.jpeg"}
                     alt="Post"
                     fill
                     className="object-cover"

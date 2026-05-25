@@ -17,7 +17,6 @@ export default function Home() {
       <AboutSection />
       <Reportajes />
       <Cronicas />
-      <AIInsightTool />
       <FreePress />
       <VisualGallery />
       <Footer />

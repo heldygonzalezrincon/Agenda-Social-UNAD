@@ -37,7 +37,7 @@ export function Reportajes() {
             <article key={report.id} className="group cursor-pointer">
               <div className="relative aspect-[16/10] overflow-hidden rounded-sm mb-8">
                 <Image
-                  src={img?.imageUrl || ""}
+                  src={report.id === "report-1" ? "/imagen1.jpeg" : "/imagen2.jpeg"}
                   alt={report.title}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700"

@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Menu, X, Cpu } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
@@ -30,17 +31,20 @@ export function Navigation() {
     <nav
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 lg:px-12 py-4",
-        scrolled ? "bg-background/95 backdrop-blur-md shadow-lg py-3" : "bg-transparent"
+        scrolled ? "bg-white backdrop-blur-md shadow-lg py-3" : "bg-white"
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 group">
-          <div className="bg-primary p-1.5 rounded-lg group-hover:bg-accent transition-colors">
-            <Cpu className="w-6 h-6 text-background" />
-          </div>
-          <span className="font-headline font-extrabold text-xl tracking-tighter uppercase italic">
-            Futuro <span className="text-primary group-hover:text-accent transition-colors">Académico</span>
-          </span>
+        <Link href="/" className="flex items-center gap-4 group text-slate-900">
+          {/* Espacio para el logo: reemplaza src="/logo.png" por la ruta de tu imagen en la carpeta public */}
+          <Image 
+            src="/logo.jpeg" 
+            alt="Logo Futuro Académico" 
+            width={160} 
+            height={160} 
+            className="object-contain transition-all duration-300"
+            priority
+          />
         </Link>
 
         {/* Desktop Links */}
@@ -49,7 +53,7 @@ export function Navigation() {
             <Link
               key={link.name}
               href={link.href}
-              className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors tracking-wide"
+              className="text-sm font-medium text-slate-600 hover:text-primary transition-colors tracking-wide"
             >
               {link.name}
             </Link>
@@ -61,7 +65,7 @@ export function Navigation() {
 
         {/* Mobile Toggle */}
         <button
-          className="md:hidden p-2 text-foreground"
+          className="md:hidden p-2 text-slate-900"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -71,7 +75,7 @@ export function Navigation() {
       {/* Mobile Menu */}
       <div
         className={cn(
-          "md:hidden absolute top-full left-0 w-full bg-background border-b border-border transition-all duration-300 overflow-hidden",
+          "md:hidden absolute top-full left-0 w-full bg-white border-b border-border transition-all duration-300 overflow-hidden",
           isOpen ? "max-h-screen py-6 opacity-100" : "max-h-0 py-0 opacity-0"
         )}
       >
@@ -80,7 +84,7 @@ export function Navigation() {
             <Link
               key={link.name}
               href={link.href}
-              className="text-lg font-medium text-foreground/80 hover:text-primary transition-colors"
+              className="text-lg font-medium text-slate-600 hover:text-primary transition-colors"
               onClick={() => setIsOpen(false)}
             >
               {link.name}

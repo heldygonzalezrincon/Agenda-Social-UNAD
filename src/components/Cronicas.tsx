@@ -30,7 +30,7 @@ export function Cronicas() {
               <div key={idx} className={`flex flex-col ${idx % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-12`}>
                 <div className="w-full lg:w-3/5 relative aspect-video overflow-hidden rounded-xl shadow-2xl shadow-primary/10">
                   <Image
-                    src={img?.imageUrl || ""}
+                    src={cronica.imageId === "chronicle-1" ? "/imagen3.jpeg" : "/imagen4.jpeg"}
                     alt={cronica.title}
                     fill
                     className="object-cover"
