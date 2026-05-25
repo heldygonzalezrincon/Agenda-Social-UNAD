@@ -5,19 +5,19 @@ const aboutData = [
   {
     title: "Objetivo del Medio",
     icon: Target,
-    content: "Ser el puente crítico entre la academia tradicional y el vertiginoso mundo tecnológico, fomentando el pensamiento reflexivo sobre la IA.",
+    content: "Informar, analizar y generar reflexión sobre el impacto de la inteligencia artificial en la educación y las nuevas dinámicas del mundo profesional, evidenciando los desafíos que enfrentan las instituciones educativas frente a la transformación tecnológica.",
     color: "text-primary"
   },
   {
     title: "Enfoque Ético",
     icon: ShieldCheck,
-    content: "Promovemos un periodismo responsable que prioriza el impacto humano y social de la tecnología por encima del sensacionalismo.",
+    content: "Futuro Académico promueve un enfoque periodístico crítico, ético y social, priorizando la responsabilidad informativa, la reflexión ciudadana y el análisis consciente del impacto tecnológico en la sociedad contemporánea.",
     color: "text-accent"
   },
   {
     title: "Público Objetivo",
     icon: Users,
-    content: "Estudiantes, docentes y profesionales que buscan entender la transformación digital sin perder de vista la esencia de la educación.",
+    content: "Estudiantes universitarios, docentes y jóvenes interesados en comprender cómo la inteligencia artificial está transformando la educación, el aprendizaje y el futuro laboral.",
     color: "text-destructive"
   }
 ]
@@ -26,12 +26,18 @@ export function AboutSection() {
   return (
     <section id="sobre-el-medio" className="py-24 bg-secondary/50">
       <div className="container mx-auto px-6 lg:px-12">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
-          <div className="max-w-2xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16 items-start">
+          <div>
             <h2 className="text-sm uppercase tracking-[0.3em] text-primary font-bold mb-4 italic">Sobre el medio</h2>
-            <h3 className="text-4xl md:text-5xl font-headline font-black">Periodismo universitario con visión de futuro</h3>
+            <h3 className="text-4xl md:text-5xl font-headline font-black leading-tight">Periodismo universitario con visión de futuro</h3>
           </div>
-          <div className="h-[2px] flex-1 bg-border ml-12 hidden md:block" />
+          <h5 className="text-muted-foreground text-lg leading-relaxed font-body">
+            Futuro Académico nace como una propuesta periodística universitaria orientada a analizar críticamente la relación entre inteligencia artificial, educación y transformación digital.
+            <br /><br />
+            El medio busca informar, generar reflexión y evidenciar cómo las nuevas tecnologías están modificando la manera en que los estudiantes aprenden, se preparan profesionalmente y enfrentan el futuro laboral.
+            <br /><br />
+            A través de reportajes, crónicas y contenidos digitales, el proyecto promueve una mirada ética y social sobre los desafíos educativos del mundo contemporáneo, priorizando el análisis crítico y la responsabilidad informativa en entornos digitales.
+          </h5>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
