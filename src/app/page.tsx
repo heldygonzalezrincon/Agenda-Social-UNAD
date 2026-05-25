@@ -1,4 +1,3 @@
-import { Navigation } from "@/components/Navigation"
 import { Hero } from "@/components/Hero"
 import { AboutSection } from "@/components/AboutSection"
 import { Reportajes } from "@/components/Reportajes"
@@ -12,7 +11,6 @@ import { Toaster } from "@/components/ui/toaster"
 export default function Home() {
   return (
     <main className="min-h-screen relative overflow-x-hidden">
-      <Navigation />
       <Hero />
       <AboutSection />
       <Reportajes />

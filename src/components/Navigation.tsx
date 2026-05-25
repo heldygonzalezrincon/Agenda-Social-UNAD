@@ -8,11 +8,11 @@ import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
-  { name: "Inicio", href: "#" },
-  { name: "Reportajes", href: "#reportajes" },
-  { name: "Crónicas", href: "#cronicas" },
-  { name: "Free Press", href: "#freepress" },
-  { name: "Sobre el medio", href: "#sobre-el-medio" },
+  { name: "Inicio", href: "/" },
+  { name: "Reportajes", href: "/#reportajes" },
+  { name: "Crónicas", href: "/#cronicas" },
+  { name: "Free Press", href: "/#freepress" },
+  { name: "Sobre el medio", href: "/#sobre-el-medio" },
 ]
 
 export function Navigation() {

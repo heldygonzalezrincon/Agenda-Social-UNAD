@@ -1,5 +1,6 @@
 import type {Metadata} from 'next';
 import './globals.css';
+import { Navigation } from '@/components/Navigation';
 
 export const metadata: Metadata = {
   title: 'Futuro Académico | Medio Digital Universitario',
@@ -18,7 +19,10 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
       </head>
-      <body className="font-body antialiased selection:bg-primary/30">{children}</body>
+      <body className="font-body antialiased selection:bg-primary/30">
+        <Navigation />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
