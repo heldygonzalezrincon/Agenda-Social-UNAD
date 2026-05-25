@@ -1,0 +1,70 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Dark futuristic digital education and AI concept",
+      "imageUrl": "https://picsum.photos/seed/tech-edu-1/1920/1080",
+      "imageHint": "futuristic technology education"
+    },
+    {
+      "id": "report-1",
+      "description": "AI and human hand connecting in academic setting",
+      "imageUrl": "https://picsum.photos/seed/ai-careers/800/600",
+      "imageHint": "artificial intelligence human connection"
+    },
+    {
+      "id": "report-2",
+      "description": "Student working with advanced digital interfaces",
+      "imageUrl": "https://picsum.photos/seed/future-skills/800/600",
+      "imageHint": "digital skills learning"
+    },
+    {
+      "id": "chronicle-1",
+      "description": "Student in library with holographic displays",
+      "imageUrl": "https://picsum.photos/seed/algorithms-notebooks/1200/800",
+      "imageHint": "modern library technology"
+    },
+    {
+      "id": "chronicle-2",
+      "description": "Traditional classroom with subtle tech overlay",
+      "imageUrl": "https://picsum.photos/seed/traditional-class/1200/800",
+      "imageHint": "classroom technology"
+    },
+    {
+      "id": "free-press-1",
+      "description": "Close up of AI chip or brain circuit",
+      "imageUrl": "https://picsum.photos/seed/insta-1/600/600",
+      "imageHint": "AI circuit brain"
+    },
+    {
+      "id": "free-press-2",
+      "description": "Digital landscape of an futuristic university",
+      "imageUrl": "https://picsum.photos/seed/insta-2/600/600",
+      "imageHint": "futuristic university campus"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Students collaborating with VR headsets",
+      "imageUrl": "https://picsum.photos/seed/gal-1/600/400",
+      "imageHint": "students VR collaboration"
+    },
+    {
+      "id": "gallery-2",
+      "description": "AI visualization in a lecture hall",
+      "imageUrl": "https://picsum.photos/seed/gal-2/600/400",
+      "imageHint": "AI lecture hall"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Close up of a coding student",
+      "imageUrl": "https://picsum.photos/seed/gal-3/600/400",
+      "imageHint": "student coding"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Modern campus architectural lines",
+      "imageUrl": "https://picsum.photos/seed/gal-4/600/400",
+      "imageHint": "modern architecture university"
+    }
+  ]
+}
