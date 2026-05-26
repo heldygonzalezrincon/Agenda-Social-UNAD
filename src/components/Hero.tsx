@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import Image from "next/image"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ChevronRight } from "lucide-react"
 import { PlaceHolderImages } from "@/lib/placeholder-images"
@@ -84,8 +85,10 @@ export function Hero() {
                 <ChevronRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="h-14 px-8 text-lg font-semibold rounded-none border-foreground/20 hover:bg-foreground/5">
-              Último reportaje
+            <Button asChild size="lg" variant="outline" className="h-14 px-8 text-lg font-semibold rounded-none border-foreground/20 hover:bg-foreground/5">
+              <Link href="/reportajes/report-1">
+                Último reportaje
+              </Link>
             </Button>
           </div>
         </div>
