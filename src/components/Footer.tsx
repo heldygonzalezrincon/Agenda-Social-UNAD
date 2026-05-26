@@ -19,13 +19,13 @@ export function Footer() {
               Explorando las intersecciones entre la inteligencia artificial, la educación y el futuro del trabajo para la próxima generación de profesionales.
             </p>
             <div className="flex gap-4">
-              <Link href="#" className="w-10 h-10 rounded-full border border-border flex items-center justify-center hover:bg-primary hover:border-primary transition-all group">
+              <Link href="https://www.instagram.com/medio_universitario?igsh=MWR3a2puY2RkZ3J6Nw%3D%3D" className="w-10 h-10 rounded-full border border-border flex items-center justify-center hover:bg-primary hover:border-primary transition-all group">
                 <Instagram className="w-5 h-5 group-hover:text-background" />
               </Link>
-              <Link href="#" className="w-10 h-10 rounded-full border border-border flex items-center justify-center hover:bg-primary hover:border-primary transition-all group">
+              <Link href="https://x.com/futuroacadd" className="w-10 h-10 rounded-full border border-border flex items-center justify-center hover:bg-primary hover:border-primary transition-all group">
                 <Twitter className="w-5 h-5 group-hover:text-background" />
               </Link>
-              <Link href="#" className="w-10 h-10 rounded-full border border-border flex items-center justify-center hover:bg-primary hover:border-primary transition-all group">
+              <Link href="https://www.linkedin.com/in/futuro-académico-b64826411" className="w-10 h-10 rounded-full border border-border flex items-center justify-center hover:bg-primary hover:border-primary transition-all group">
                 <Linkedin className="w-5 h-5 group-hover:text-background" />
               </Link>
             </div>

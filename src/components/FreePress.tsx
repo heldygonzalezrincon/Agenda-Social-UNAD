@@ -43,7 +43,14 @@ export function FreePress() {
           {posts.map((post) => {
             const img = PlaceHolderImages.find(i => i.id === post.imageId)
             return (
-              <div key={post.id} className="bg-card border border-border rounded-xl overflow-hidden shadow-xl">
+              <a 
+                key={post.id} 
+                href="https://www.instagram.com/medio_universitario?igsh=MWR3a2puY2RkZ3J6Nw==" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block group transition-transform hover:scale-[1.01]"
+              >
+                <div className="bg-card border border-border rounded-xl overflow-hidden shadow-xl">
                 {/* Post Header */}
                 <div className="p-4 flex items-center justify-between">
                   <div className="flex items-center gap-3">
@@ -99,7 +106,8 @@ export function FreePress() {
                   
                   <p className="text-xs text-muted-foreground uppercase pt-1">Ver los {post.comments} comentarios</p>
                 </div>
-              </div>
+                </div>
+              </a>
             )
           })}
         </div>

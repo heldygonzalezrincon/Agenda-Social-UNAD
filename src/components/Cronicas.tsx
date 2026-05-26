@@ -24,7 +24,7 @@ export function Cronicas() {
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-sm uppercase tracking-[0.5em] text-primary font-black italic">Crónicas Visuales</h2>
           <h3 className="text-5xl md:text-7xl font-headline font-black">Relatos del Presente</h3>
-          <h6 className="text-4xl md:text-3xl font-headline font-black">Historias y reflexiones sobre la realidad educativa contemporánea</h6>
+          <h4 className="text-4xl md:text-3xl font-headline font-black">Historias y reflexiones sobre la realidad educativa contemporánea</h4>
         </div>
 
         <div className="space-y-24">

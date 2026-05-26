@@ -16,7 +16,6 @@ export default function Home() {
       <Reportajes />
       <Cronicas />
       <FreePress />
-      <VisualGallery />
       <Footer />
       <Toaster />
     </main>
